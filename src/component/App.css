@@ -1,5 +1,6 @@
 body {
   background-color: rgb(210, 231, 249);
+
 }
 
 form {
@@ -7,6 +8,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 input {
@@ -34,5 +36,34 @@ button {
 
 ul {
   background-color: rgb(248, 239, 239);
-  width:
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid grey
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  width: 80%;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
 }
