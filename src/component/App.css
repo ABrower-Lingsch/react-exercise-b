@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(210, 231, 249);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 50%;
+  margin-top: 20px;
+  height: 40px;
+
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgb(76, 76, 216);
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  height: 40px;
+  width: 60px;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: right;
+  width: 50%;
+}
+
+ul {
+  background-color: rgb(248, 239, 239);
+  width:
+}
