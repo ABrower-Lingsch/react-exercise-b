@@ -4,7 +4,7 @@ import './App.css';
 import { useState } from 'react';
 
 
-const INITIAL_CONTACT = [{ id: 1, first: 'Example first name', last: 'Example last name', address: 'Example address', phone: 'Example phone number', }];
+const INITIAL_CONTACT = [{ id: 1, first: 'First name', last: 'Last name', address: 'Address', phone: 'Phone Number', }];
 
 function App() {
 
