@@ -67,3 +67,7 @@ li {
   justify-content: space-around;
   padding: 10px 0;
 }
+
+div {
+  word-break: break-all;
+}
